@@ -1,6 +1,6 @@
 # React.js Frontend Developer Portfolio
 
-A modern responsive personal portfolio website built for Upwork-style project presentation. The site highlights React.js frontend development, responsive web applications, featured projects, services, experience, and contact details.
+A modern responsive portfolio website built with React.js, JavaScript, and CSS to showcase frontend development skills, featured projects, services, experience, and contact details.
 
 ## Features
 
@@ -52,8 +52,8 @@ portfolio-website/
 │   ├── main.jsx
 │   └── styles.css
 ├── public/
-├── vite.config.js
 ├── screenshot/
+├── vite.config.js
 ├── README.md
 └── package.json
 ```
