@@ -4,21 +4,27 @@ const projects = [
     technologies: ["React.js", "CSS", "Responsive Design"],
     description:
       "A modern responsive portfolio website designed to showcase frontend skills, projects, and professional services.",
-    tone: "forest"
+    tone: "forest",
+    demoUrl: "#home",
+    githubUrl: "https://github.com/linmao20051108-gif/frontend-developer-portfolio"
   },
   {
-    title: "Business Landing Page",
-    technologies: ["React.js", "UI Design", "Responsive Layout"],
-    description:
-      "A professional landing page created for business presentation and customer conversion.",
-    tone: "gold"
-  },
-  {
-    title: "AI Chat Interface",
+    title: "AI Chat Assistant Platform",
     technologies: ["React.js", "API Integration", "JavaScript"],
     description:
-      "An interactive AI chat interface with modern user experience design.",
-    tone: "teal"
+      "A modern AI chat assistant interface with simulated AI responses, local chat history, and an API-ready structure.",
+    tone: "teal",
+    demoUrl: "",
+    githubUrl: "https://github.com/linmao20051108-gif/ai-chat-assistant-platform"
+  },
+  {
+    title: "E-commerce React Store",
+    technologies: ["React.js", "React Router", "Shopping Cart"],
+    description:
+      "A responsive shopping website with product browsing, search, filtering, cart functionality, and checkout UI.",
+    tone: "gold",
+    demoUrl: "",
+    githubUrl: "https://github.com/linmao20051108-gif/ecommerce-react-store"
   }
 ];
 
@@ -46,10 +52,12 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="project-actions">
-                  <a className="text-link" href="#home">Live Demo</a>
+                  {project.demoUrl && (
+                    <a className="text-link" href={project.demoUrl}>Live Demo</a>
+                  )}
                   <a
                     className="text-link"
-                    href="https://github.com/linmao20051108-gif/frontend-developer-portfolio"
+                    href={project.githubUrl}
                     target="_blank"
                     rel="noreferrer"
                   >
