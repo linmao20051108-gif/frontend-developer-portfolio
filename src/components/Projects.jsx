@@ -47,7 +47,12 @@ export default function Projects() {
                 </div>
                 <div className="project-actions">
                   <a className="text-link" href="#home">Live Demo</a>
-                  <a className="text-link" href="https://github.com/username" target="_blank" rel="noreferrer">
+                  <a
+                    className="text-link"
+                    href="https://github.com/linmao20051108-gif/frontend-developer-portfolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     GitHub
                   </a>
                 </div>

@@ -21,9 +21,9 @@ export default function Contact() {
             Have a project idea? Feel free to contact me.
           </p>
           <div className="contact-list">
-            <a href="mailto:your@email.com">your@email.com</a>
-            <a href="https://github.com/username" target="_blank" rel="noreferrer">
-              github.com/username
+            <a href="mailto:linmao20051108@gmail.com">linmao20051108@gmail.com</a>
+            <a href="https://github.com/linmao20051108-gif" target="_blank" rel="noreferrer">
+              github.com/linmao20051108-gif
             </a>
           </div>
         </div>
